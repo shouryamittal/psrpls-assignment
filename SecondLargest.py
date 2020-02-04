@@ -34,7 +34,8 @@ def isElementValid(element):
 #
 #   Input: array of strings
 #   
-#   Output: second Largest of array, if exists, -1 otherwise
+#   Output: second Largest of array in string form, if exists, 
+#           -1 otherwise
 ###################################################################
 def findSecondLargestOfArray(array):
     number = 0
@@ -63,7 +64,7 @@ def findSecondLargestOfArray(array):
     if((True == isEleNotCorrect) or (float('-inf') == secondLargest)):
         return -1
     else:
-        return secondLargest
+        return str(secondLargest)
 
 
 ################################################################
